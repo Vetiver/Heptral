@@ -1,0 +1,33 @@
+/*Brandon Grotesque*/
+
+@font-face {
+    font-family: BrandonGrotesque;
+    font-weight: 300;
+    font-style: normal;
+    src: url("../../media/fonts/common/Brandon-Grotesque-Light.woff")
+    format("woff");
+}
+
+@font-face {
+    font-family: BrandonGrotesque;
+    font-weight: bold;
+    font-style: normal;
+    src: url("../../media/fonts/common/Brandon-Grotesque-Bold.woff")
+    format("woff");
+}
+
+@font-face {
+    font-family: BrandonGrotesque;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../../media/fonts/common/BrandonGrotesque-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: BrandonGrotesque;
+    font-weight: 800;
+    font-style: normal;
+    src: url("../../media/fonts/common/BrandonGrotesque-Black.ttf")
+    format("truetype");
+}

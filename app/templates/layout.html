@@ -1,0 +1,36 @@
+<co-ab-ru-logo-menu
+        model="m.logo"
+        user-label="Abbott logotype"
+        rv-on-tap="openMenu"
+        rv-controller="menu"
+></co-ab-ru-logo-menu>
+<!-- <co-image
+  model="m.common.footer1"
+  class="pa"
+  id="footerImage1"
+  user-label="Footer image"
+></co-image>
+<co-image
+  model="m.common.footer2"
+  class="pa"
+  id="footerImage2"
+  user-label="Footer image"
+></co-image> -->
+<co-ab-optional-popup
+        buttons="m.common.buttons"
+        touch-duration="600"
+></co-ab-optional-popup>
+<rv-template name="references-and-design"></rv-template>
+<co-thumbnails-button
+        id="bottomThumbnails"
+        model="m.common.bottomThumbs"
+        sealed
+        user-label="Thumbnails"
+></co-thumbnails-button>
+<co-ab-ru-nav-menu
+        model="m.common.menu"
+        user-label="Menu bar"
+></co-ab-ru-nav-menu>
+<div rv-if="isPopup">
+    <rv-template name="../node_modules/popup-close-button/popup-close-button"></rv-template>
+</div>

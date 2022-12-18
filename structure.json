@@ -1,0 +1,109 @@
+{
+	"slides": {
+		
+		
+		
+		
+		
+		"valentin46": {
+			"name": "valentin46",
+			"template": "valentin46.html"
+		},
+		"olga44": {
+			"name": "olga44",
+			"template": "olga44.html"
+		},
+		"gregoriy47": {
+			"name": "gregoriy47",
+			"template": "gregoriy47.html"
+		},
+		"anna37": {
+			"name": "anna37",
+			"template": "anna37.html"
+		},
+		"egor51": {
+			"name": "egor51",
+			"template": "egor51.html"
+		},
+		"margarita57": {
+			"name": "margarita57",
+			"template": "margarita57.html"
+		},
+		"anton42": {
+			"name": "anton42",
+			"template": "anton42.html"
+		},
+		"valentin46Det": {
+			"name": "valentin46Det",
+			"template": "valentin46Det.html"
+		},
+		"egor51Det": {
+			"name": "egor51Det",
+			"template": "egor51Det.html"
+		}
+	},
+	"chapters": {
+		"patientProfiles": {
+			"name": "ПРОФИЛИ ПАЦИЕНТОВ",
+			"content": []
+		},
+		"homepage": {
+			"name": "ДОМОЙ",
+			"content": [
+				"valentin46",
+				"olga44",
+				"gregoriy47",
+				"anna37",
+				"egor51",
+				"margarita57",
+				"anton42",
+				"valentin46Det",
+				"egor51Det"
+				
+				
+				
+				
+				
+				
+			]
+		},
+		"tools": {
+			"name": "ИНСТРУМЕНТЫ",
+			"content": []
+		},
+		"actualization": {
+			"name": "АКТУАЛИЗАЦИЯ",
+			"content": []
+		},
+		"mechanism": {
+			"name": "МЕХАНИЗМ ДЕЙСТВИЯ",
+			"content": []
+		},
+		"argumentation": {
+			"name": "АРГУМЕНТАЦИЯ",
+			"content": []
+		},
+		"doses": {
+			"name": "ДОЗИРОВАНИЕ",
+			"content": []
+		},
+		"objections": {
+			"name": "ВОЗРАЖЕНИЯ",
+			"content": []
+		},
+		"benefits": {
+			"name": "ПРЕИМУЩЕСТВА",
+			"content": []
+		}
+	},
+	"storyboard": [
+		"homepage",
+		"tools",
+		"actualization",
+		"mechanism",
+		"argumentation",
+		"doses",
+		"objections",
+		"benefits"
+	]
+}

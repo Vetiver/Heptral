@@ -1,0 +1,69 @@
+#thumbnails{
+	position: absolute;
+	left: 275px;
+	top: 100%;
+	width: 530px;
+	height: 75px;
+	-webkit-transition-duration: 300ms;
+	-webkit-transform: translate3d(0, 0, 0);
+	z-index: 900;
+}
+#bottomThumbnails{
+	z-index: 100;
+	}
+#thumbnails.active{
+	-webkit-transform: translate3d(0, -100%, 0);
+}
+#thumbnails nav{
+	position: absolute;
+	height: 100%;
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: start;
+}
+#thumbnails button{
+	display: block;
+	width: 81px;
+	height: 61px;
+	opacity: 0.6;
+	background-color: #fff;
+	background-size: 100%;
+	margin: 0 8px 0 0;
+	border: none;
+	outline: none;
+	-webkit-user-select: none;
+}
+#thumbnails button.active{
+	opacity: 1;
+}
+#thumbnails .scroll-wrap{
+	overflow: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#ind{
+	position: absolute;
+	width: 100%;
+	top: 5px;
+	left: 0;
+}
+#ind button{
+	position: absolute;
+	right: 100%;
+	top: 0;
+	width: 20px;
+	height: 60px;
+	background: url("../../media/images/common/indicate-button-background.png") no-repeat center;
+	background-size: 6px 25px;
+	opacity: 0.5;
+}
+#ind button.active{
+	opacity: 1;
+}
+#ind button.backward{
+	left: 100%;
+	right: auto;
+	-webkit-transform: scaleX(-1);
+}

@@ -1,0 +1,248 @@
+#references-and-design {
+  position: absolute;
+  right: 0;
+  top: 105px;
+  width: 333px;
+  height: 505px;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  -webkit-transition: -webkit-transform 400ms;
+  transform: translate3d(-100%, 0, 0);
+  transition: transform 500ms;
+  left: 0;
+  z-index: 11;
+}
+
+#references-and-design.opened {
+  -webkit-transform: translate3d(-3px, 0, 0);
+  transform: translate3d(-3px, 0, 0);
+}
+
+.references-list,
+#references-and-design > div {
+  height: 100%;
+}
+
+.alert-info {
+  font: normal 400 13px PTSans;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: none;
+}
+
+.alert-info.enable {
+  display: block;
+}
+
+.alert-info.active {
+  z-index: 11;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+#references-and-design button {
+  position: absolute;
+  z-index: 15;
+  top: 0;
+  right: -136px;
+  border: none;
+  background: #509e2f;
+  border-radius: 0;
+  width: 100px;
+  height: 38px;
+  font-family: Avenir;
+  font-weight: 500;
+  color: white;
+  font-size: 12px;
+  padding: 0px 0px 3px 1px;
+  box-shadow: none;
+  /* box-shadow: 0 -1px 0 1px #d4d4d4, 0 -2px 2px rgba(0, 0, 0, 0.28); */
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  outline: none;
+}
+
+#references-and-design button.design-open-button {
+  top: 136px;
+}
+
+.scroll-container ul {
+  padding: 25px 35px 25px 25px;
+}
+
+#references-and-design .references-list {
+  border-top-right-radius: 13px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 10px;
+  background-color: #008926;
+  -webkit-box-shadow: inset 0 0 0 1px #79a30000, 0 0 0 1px #d4d4d4,
+    0 0 4px rgba(0, 0, 0, 0.28);
+  box-shadow: inset 0 0 0 1px #79a30000, 0 0 0 1px #d4d4d4,
+    0 0 4px rgba(0, 0, 0, 0.28);
+  position: relative;
+  height: 100%;
+  width: 100%;
+  box-sizing: content-box;
+  border: 2px solid white;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+#references-and-design .references {
+  background: #008926;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 10px;
+}
+
+.scroll-container ul li {
+  list-style: none;
+  font: normal 400 12px Avenir;
+  color: #ffffff;
+}
+
+.scroll-container ul li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.references .scroll-container ul {
+  counter-reset: olcount;
+  padding: 0px 31px 52px 34px;
+}
+
+.references .scroll-container ul li {
+  font: 300 12px Avenir;
+  position: relative;
+  line-height: 1.6;
+  text-indent: 16px;
+  word-wrap: break-word;
+  color: #000;
+}
+
+.references .scroll-container ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.references .scroll-container ul li.pdf-file {
+  background: url("../../media/images/common/pdf-icon.png") 0 100% no-repeat;
+  padding-bottom: 160px;
+}
+
+.references .scroll-container ul li:before {
+  position: absolute;
+  left: -16px;
+  counter-increment: olcount;
+  content: counter(olcount) ". ";
+  font: 700 13px Avenir;
+}
+
+.references .scroll-container ul li.abbr {
+  text-indent: 0;
+}
+
+.references .scroll-container ul li.abbr:before {
+  display: none;
+}
+
+.design h4:first-child {
+  margin-top: 0;
+}
+
+.design h4 {
+  margin-top: 10px;
+}
+
+.design b {
+  font-weight: bold;
+}
+
+.design ul ul {
+  padding: 0;
+}
+
+.design ul ul li {
+  margin-bottom: 0;
+  padding-left: 2px;
+  list-style: inside disc;
+}
+
+.heptral .design table td {
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+#references-and-design .scroll-container,
+#references-and-design co-iscroll {
+  height: 91.7%;
+  margin-top: 18px;
+}
+
+#references-and-design .iScrollScrollbar.show[co-iscroll] {
+  opacity: 0;
+}
+
+#references-and-design abbr {
+  word-wrap: break-word;
+}
+
+.mc2-2020 #references-and-design .references-list {
+  box-shadow: none;
+  border: 2px solid #c9c9c9;
+  border-radius: 0;
+  box-sizing: border-box;
+  background: white;
+}
+
+.mc2-2020-doctors #references-and-design .references-list {
+  box-shadow: none;
+  border: 2px solid #509e2f;
+  border-radius: 0;
+  box-sizing: border-box;
+  background: white;
+}
+
+.mc2-2020 #references-and-design,
+.mc2-2020-doctors #references-and-design {
+  top: 186px;
+  width: 290px;
+  height: 514px;
+}
+
+.mc2-2020-doctors .scroll-container ul li {
+  color: #006747;
+}
+
+.mc2-2020 #references-and-design.opened .active button {
+  background: #c9c9c9;
+  color: white;
+}
+
+.mc2-2020-doctors #references-and-design.opened .active button {
+  background: transparent
+    url("../../media/images/common/refs-opened-button.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.mc2-2020 .design .scroll-container ul {
+  padding: 14px 25px 25px 56px;
+}
+
+.mc2-2020-doctors .design .scroll-container ul {
+  padding: 14px 25px 25px 56px;
+}
+
+.mc2-2020 #references-and-design button {
+  background: #c9c9c9;
+}
+
+.mc2-2020-doctors #references-and-design button.design-open-button,
+.mc2-2020 #references-and-design button.design-open-button {
+  top: 125px;
+  right: -138px;
+}

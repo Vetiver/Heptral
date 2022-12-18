@@ -1,0 +1,254 @@
+body {
+  height: 100%;
+}
+
+article.slide.mobile-slide {
+  width: 100%;
+  height: 100%;
+  font-size: 1.25vw;
+  background: white;
+}
+
+.mobile-slide .open-instructions-wrapper {
+  display: none;
+}
+
+.mobile-slide .mobileBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.mobile-slide footer {
+  display: none;
+}
+
+.mobile-slide #references-and-design button.design-open-button,
+.mobile-slide #references-and-design button.references-open-button {
+  border: 0;
+  border-radius: 15%;
+  width: 4.5vw;
+  right: 3.8vw;
+  height: 4.5vw;
+  bottom: 3.8vw;
+  top: auto;
+  -webkit-transform: none;
+  z-index: 3;
+  pointer-events: auto;
+  box-shadow: none;
+}
+
+.mobile-slide #references-and-design button.references-open-button span,
+.mobile-slide #references-and-design button.design-open-button span {
+  color: transparent;
+  background: none;
+}
+
+.mobile-slide #references-and-design .design button.design-open-button {
+  right: 10vw;
+  background: #008926 url("../../media/images/common/design-open-button.png") no-repeat;
+  background-size: 75%, 100%;
+  background-position: center;
+}
+
+.mobile-slide #references-and-design button.references-open-button {
+  background: #008926 url("../../media/images/common/references-open-button.png") no-repeat;
+  background-size: 68%, 98%;
+  background-position: center center;
+}
+
+.mobile-slide div#references-and-design {
+  transform: none;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  pointer-events: none;
+}
+
+.mobile-slide div#references-and-design.opened {
+
+  pointer-events: auto;
+}
+
+.mobile-slide #references-and-design .alert-info .references-list {
+  z-index: 4;
+  height: 85.5%;
+  width: 92%;
+  position: absolute;
+  opacity: 0;
+  border-radius: 0.9vw;
+  pointer-events: none;
+  border-width: 0.25vw;
+  box-shadow: 0 0 0.56vw 0 rgba(0, 0, 0, 0.32);
+  top: 7vh;
+}
+
+.mobile-slide #references-and-design .references.alert,
+.mobile-slide #references-and-design .design.alert {
+  background: transparent;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.mobile-slide #references-and-design.opened .references.alert,
+.mobile-slide #references-and-design.opened .design.alert {
+
+  pointer-events: auto;
+}
+
+.mobile-slide #references-and-design button.references-close-button {
+  background: url("../../media/images/common/refs-close.png") no-repeat;
+  background-size: contain;
+  right: 6vw;
+  top: 5.2vw;
+  height: 3.75vw;
+  transform: none;
+  width: 3.75vw;
+  border: none;
+  pointer-events: auto;
+  z-index: 15;
+  opacity: 0;
+  display: none;
+  box-shadow: none;
+}
+
+.mobile-slide #references-and-design.opened .references-list {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mobile-slide .references-list .scroll-container ul {
+  padding: 1.6vw 6vw 1vw 2.1vw;
+  width: auto;
+}
+
+.mobile-slide #references-and-design.opened button.references-close-button {
+  opacity: 1;
+  display: block;
+}
+
+.mobile-slide #references-and-design .references .scroll-container ul li,
+.mobile-slide #references-and-design .design .scroll-container ul li {
+  font-size: 2.14vw;
+  margin-bottom: 2.4vw;
+}
+
+.mobile-slide #references-and-design .references .scroll-container ul li::before,
+.mobile-slide #references-and-design .design .scroll-container ul li::before {
+  font: inherit;
+}
+
+.mobile-slide .number-of-heptral {
+  top: auto;
+  right: 4.1vw;
+  bottom: 2.5vw;
+  font-size: 0.82rem;
+  transform: none;
+}
+
+.mobile-slide .mobileBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media
+
+/*iPhone 6,7,8*/
+screen and (max-height: 640px) and (max-width: 1136px) and (orientation: landscape),
+screen and (max-height: 750px) and (max-width: 1334px) and (orientation: landscape),
+screen and (aspect-ratio: 16/9),
+screen and (aspect-ratio: 18/9),
+screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {}
+
+
+@media only screen
+
+/*iPhone 6+,7+,8+*/
+and (min-device-height: 414px) and (device-width: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+
+  article.slide.mobile-slide,
+  body article.slide.mc2-2017.mobile-slide {
+    width: 100%;
+  }
+
+  article.slide.mobile-slide .scroll-container {
+    top: 0.6%;
+  }
+}
+
+@media only screen
+/*iPhone 6s Plus*/
+
+and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+
+  .slide.mobile-slide .approve.approve1.number-product1,
+  .slide.mobile-slide .approve.approve2.number-product2 {
+    font-size: 6.4px;
+  }
+}
+
+@media
+
+/*iPhone X*/
+screen and (max-device-height: 375px) and (device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape),
+screen and (max-height: 375px) and (width:812px) and (orientation:landscape),
+screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+
+  body {
+    background: #60be7a;
+  }
+
+  body article.slide.mobile-slide,
+  body article.slide.mc2-2017.mobile-slide {
+    background: transparent;
+    width: 82.2%;
+  }
+}
+
+
+@media
+
+/*for devices with aspect-ratio: 18/9*/
+screen and (aspect-ratio: 18/9) {
+  body {
+    background: #ffffff;
+  }
+
+  body article.slide.mobile-slide,
+  body article.slide.mc2-2017.mobile-slide {
+    background: transparent !important;
+    width: 89.2%;
+  }
+
+  body article.slide.mobile-slide .scroll-container {
+    left: 0.3%;
+    top: .6%;
+  }
+
+  body article.slide.mobile-slide .scroll-container {
+    width: 99.4%;
+  }
+}
+
+
+
+
+@media screen and (aspect-ratio: 4/3) {
+  .mobile-slide #references-and-design button.references-close-button {
+    top: 7.6vw;
+  }
+
+  .mobile-slide .number-of-heptral {
+    bottom: 11.7vw;
+    font-size: 0.7rem;
+  }
+}

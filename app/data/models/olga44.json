@@ -1,0 +1,201 @@
+{
+    "logo": {
+        "logo": "abbott_original_one_line"
+      },
+      "footer": {
+        "bottomFooterImage": "",
+    
+        "logo": {
+          "src": ""
+        }
+      },
+      "scenarios": {
+        "hotSlides": {}
+      },
+      "productLogoNeuro": {
+        "src": "media/images/common/heptral_logo.png",
+        "position": "center center",
+        "size": "contain"
+      },
+      "redirectBTN": {
+        "src": "media/images/common/redirectBTN.png"
+      },
+      "fing": {
+        "src": "media/images/common/fing.png"
+      },
+      "hiddenReferences": {
+        "html": "t.hiddenReferences"
+      },
+      "titleHept1": {
+        "html": "t.titleHept1"
+      },
+      "titleHept2": {
+        "html": "t.titleHept2"
+      },
+      "title": {
+        "html": "t.title"
+      },
+      "approveNumber": {
+        "html": "t.approveNumber"
+      },
+      "slideBg": {
+        "src": "media/images/common/thumbs/olga44.jpg"
+      },
+      "bg": {
+        "src": "media/images/olga44/bg.png"
+      },
+      "icon1": {
+        "src": "media/images/olga44/icon1.png"
+      },
+      "icon2": {
+        "src": "media/images/olga44/icon2.png"
+      },
+      "icon3": {
+        "src": "media/images/olga44/icon3.png"
+      },
+      "icon4": {
+        "src": "media/images/olga44/icon4.png"
+      },
+      "icon5": {
+        "src": "media/images/olga44/icon5.png"
+      },
+      "icon6": {
+        "src": "media/images/olga44/icon6.png"
+      },
+      "btn1": {
+        "src": "media/images/valentin46/btn1.png"
+      },
+      "btn2": {
+        "src": "media/images/valentin46/btn2.png"
+      },
+      "btn3": {
+        "src": "media/images/valentin46/btn3.png"
+      },
+      "btn4": {
+        "src": "media/images/valentin46/btn4.png"
+      },
+      "popupBtn1": {
+        "src": "media/images/valentin46/popupBtn1.png"
+      },
+      "popupBtn2": {
+        "src": "media/images/valentin46/popupBtn2.png"
+      },
+      "title2": {
+        "html": "t.title2"
+      },
+      "question": {
+        "html": "t.question"
+      },
+      "list1": {
+        "html": "t.list1"
+      },
+      "list2": {
+        "html": "t.list2"
+      },
+      "list3": {
+        "html": "t.list3"
+      },
+      "list4": {
+        "html": "t.list4"
+      },
+      "list5": {
+        "html": "t.list5"
+      },
+      "list6": {
+        "html": "t.list6"
+      },
+      "openPopup1": {
+        "id": "popup1",
+        "showOnSlideenter": false,
+        "shoeCloseButton": true,
+        "visible": false,
+        "closeButtonImage": {
+          "src": "media/images/common/closeIconGray.png"
+        },
+
+        "hideOnOutsideTap": false,
+        "showAnimation": {
+          "name": "fadeIn",
+          "duration": 0.1,
+          "delay": 0,
+          "infinite": false,
+          "on": "",
+          "initVisibility": false,
+          "blockOispatcher": false
+        },
+        "hideAnimation": {
+          "name": "fadeOut",
+          "duration": 0.1,
+          "delay": 0,
+          "infinite": false,
+          "on": "",
+          "initVisibility": true,
+          "blockOispatcher": false
+        }
+      },
+      "popupImg": {
+        "src": "media/images/valentin46/popup1.png"
+      },
+      "openPopup2": {
+        "id": "popup2",
+        "showOnSlideenter": false,
+        "shoeCloseButton": true,
+        "visible": false,
+        "closeButtonImage": {
+          "src": "media/images/common/closeIconGray.png"
+        },
+
+        "hideOnOutsideTap": false,
+        "showAnimation": {
+          "name": "fadeIn",
+          "duration": 0.1,
+          "delay": 0,
+          "infinite": false,
+          "on": "",
+          "initVisibility": false,
+          "blockOispatcher": false
+        },
+        "hideAnimation": {
+          "name": "fadeOut",
+          "duration": 0.1,
+          "delay": 0,
+          "infinite": false,
+          "on": "",
+          "initVisibility": true,
+          "blockOispatcher": false
+        }
+      },
+      "pop2Title": {
+        "html": "t.pop2Title"
+      },
+      "popList1": {
+        "html": "t.popList1"
+      },
+      "popList2": {
+        "html": "t.popList2"
+      },
+      "popList3": {
+        "html": "t.popList3"
+      },
+      "popList4": {
+        "html": "t.popList4"
+      },
+      "popList5": {
+        "html": "t.popList5"
+      },
+      "popIcon1": {
+        "src": "media/images/valentin46/bul5.png"
+      },
+      "popIcon2": {
+        "src": "media/images/valentin46/bul4.png"
+      },
+      "popIcon3": {
+        "src": "media/images/valentin46/bul3.png"
+      },
+      "popIcon4": {
+        "src": "media/images/valentin46/bul2.png"
+      },
+      "popIcon5": {
+        "src": "media/images/valentin46/bul1.png"
+      }
+}

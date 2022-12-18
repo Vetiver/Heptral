@@ -1,0 +1,44 @@
+.open-instructions-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.instruction-button,
+.instruction-button.active {
+    position: absolute;
+    left: 29px;
+    bottom: 10px;
+    width: 191px;
+    height: 127px;
+    background: url(../../../media/images/common/pack_new.png) no-repeat;
+    background-size: contain;
+    transform: translate3d(0, 0, 0);
+}
+.instruction-button-transparent,
+.instruction-button-transparent.active {
+    position: absolute;
+    left: 29px;
+    bottom: 10px;
+    width: 191px;
+    height: 127px;
+    background: transparent;
+    transform: translate3d(0, 0, 0);
+}
+
+.instruction-first {
+    background: url(../../../media/images/common/pack_new.png) no-repeat;
+    background-size: contain;
+    background: none;
+}
+
+.heptral-tl #instructions .instruction-button{
+    position: absolute;
+    left: 34px;
+    bottom: 7px;
+    width: 216px;
+    height: 126px;
+    background: url(../../../media/images/common/heptral-tl-pack.png) no-repeat;
+    background-size: contain;
+}

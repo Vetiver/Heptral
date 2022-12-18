@@ -1,0 +1,79 @@
+#menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#menu nav{
+	position: relative;
+	height: 768px;
+	background-size: 100% 100%, 3px 3px;
+	z-index: 1000;
+	-webkit-transform:translate3d(-102px,0,0);
+	-webkit-transition: 300ms -webkit-transform linear 0;
+	width: 95px;
+	background: #fff;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+#menu.active nav{
+	-webkit-transform:translate3d(0,0,0);
+	-webkit-box-shadow: 3px 0 13px rgba(0, 0, 0, 0.5);
+}
+#menu .open-menu{
+	position: absolute;
+	top: 0;
+	left: 34px;
+	background: url('../../media/images/common/abbott-white-logo') 100% 100% no-repeat;
+	background-size: 185px 68px;
+	width: 231px;
+	height: 98px;
+	border: none;
+	outline: none;
+	z-index: 1;
+}
+#menu.active .open-menu{
+	pointer-events: none;
+}
+#menu nav button{
+	padding: 12px 6px;
+	border: none;
+	border-bottom: 1px solid white;
+	text-align: left;
+	color: transparent;
+	background: url('../../media/images/common/menu-glyphs.png') no-repeat top center, -webkit-gradient(linear, left top, left bottom, from(#94c700), to(#73a700));
+	background-size: 54px 715px, 100%;
+	width: 95px;
+	height: 96px;
+}
+#menu nav button.active{
+	background: #5b8b0f url('../../media/images/common/menu-glyphs.png') no-repeat top center;
+	background-size: 54px 715px, 100%;
+}
+#menu nav button[data-chapter="homepage"]{
+	background-position: center 28px, 0 0;
+}
+#menu nav button[data-chapter="potential"]{
+	background-position: center -68px, 0 0;
+}
+#menu nav button[data-chapter="problems"]{
+	background-position: center -165px, 0 0;
+}
+#menu nav button[data-chapter="mechanism"]{
+	background-position: center -259px, 0 0;
+}
+#menu nav button[data-chapter="argumentation"]{
+	background-position: center -355px, 0 0;
+}
+#menu nav button[data-chapter="doses"]{
+	background-position: center -451px, 0 0;
+}
+#menu nav button[data-chapter="objections"]{
+	background-position: center -546px, 0 0;
+}
+#menu nav button[data-chapter="benefits"]{
+	background-position: center -643px, 0 0;
+}
+#menu nav button.empty{
+	pointer-events: none;
+	opacity: 0.4;
+}

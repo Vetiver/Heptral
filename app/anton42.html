@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- components -->
+	<rv-template name="common-components"></rv-template>
+	<!-- /components -->
+
+	<!-- styles --> 
+	<link rel="stylesheet" href="styles/anton42.css"> 
+	<!-- /styles -->
+</head>
+<body>
+	<article class="slide">
+		
+		<!--<co-image class="slide-bg" model="m.slideBg"></co-image>-->
+		<!-- /layout -->
+		<rv-template name="layout"></rv-template>
+		<!-- /layout -->
+		<!--Pill's Name-->
+		<co-image
+			id="productLogoNeuro"
+			class="pa product-logo-neuro"
+			model="m.productLogoNeuro"
+		></co-image>
+		<co-text class="approve-text approve-number" model="m.approveNumber"></co-text>
+		<co-text class="slide-title" model="m.title"></co-text>
+		
+		<co-image class="com-bg" model="m.bg"></co-image>
+        
+		
+
+		<co-container class="main">
+            <co-text class="subtitle" model="m.title2"></co-text>
+            <co-container class="com-list">
+                <co-text class="titleHept" model="m.titleHept1"></co-text>
+                <co-container class="com-list-item">
+                    <co-container class="icon-box">
+                        <co-image class="icon1" model="m.icon1"></co-image>
+                    </co-container>
+                    
+                    <co-text class="list1" model="m.list1"></co-text>
+                </co-container>
+                <co-container class="com-list-item">
+                    <co-container class="icon-box">
+                        <co-image class="icon2" model="m.icon2"></co-image>
+                    </co-container>
+                    
+                    <co-text class="list1" model="m.list2"></co-text>
+                </co-container>
+                <co-container class="com-list-item">
+                    <co-container class="icon-box">
+                        <co-image class="icon3" model="m.icon3"></co-image>
+                    </co-container>
+                    
+                    <co-text class="list1" model="m.list3"></co-text>
+                </co-container>
+            </co-container>
+            <co-container class="com-list2">
+                <co-text class="titleHept2" model="m.titleHept2"></co-text>
+                <co-container class="com-list-item">
+                    <co-container class="icon-box">
+                        <co-image class="icon4" model="m.icon4"></co-image>
+                    </co-container>
+                    
+                    <co-text class="list2" model="m.list4"></co-text>
+                </co-container>
+                <co-container class="com-list-item">
+                    <co-container class="icon-box">
+                        <co-image class="icon2" model="m.icon5"></co-image>
+                    </co-container>
+                    
+                    <co-text class="list2" model="m.list5"></co-text>
+                </co-container>
+                <co-container class="com-list-item">
+                    <co-container class="icon-box">
+                        <co-image class="icon3" model="m.icon6"></co-image>
+                    </co-container>
+                    
+                    <co-text class="list2" model="m.list6"></co-text>
+                </co-container>
+            </co-container>
+           
+            <co-image class="redirectBTN" model="m.redirectBTN"></co-image>
+            <co-image class="fing" model="m.fing"></co-image>
+			 
+			
+			
+			
+			
+		</co-container>
+		
+
+        <co-popup id="popup1" class="popup popup-1">
+            
+			<co-image class="popup-img" model="m.popupImg"></co-image>
+			
+		</co-popup>
+
+        <co-popup id="popup2" class="popup popup-2">
+            
+			<co-container class="pop-list">
+                <co-text class="popup2-title" model="m.pop2Title"></co-text>
+                <co-container class="pop-list-item">
+                    <co-image class="popIcon" model="m.popIcon1"></co-image>
+                    <co-text class="popList" model="m.popList1"></co-text>
+                </co-container>
+                <co-container class="pop-list-item">
+                    <co-image class="popIcon" model="m.popIcon2"></co-image>
+                    <co-text class="popList" model="m.popList2"></co-text>
+                </co-container>
+                <co-container class="pop-list-item">
+                    <co-image class="popIcon" model="m.popIcon3"></co-image>
+                    <co-text class="popList" model="m.popList3"></co-text>
+                </co-container>
+                <co-container class="pop-list-item">
+                    <co-image class="popIcon" model="m.popIcon4"></co-image>
+                    <co-text class="popList" model="m.popList4"></co-text>
+                </co-container>
+                <co-container class="pop-list-item">
+                    <co-image class="popIcon" model="m.popIcon5"></co-image>
+                    <co-text class="popList" model="m.popList5"></co-text>
+                </co-container>
+                
+
+            </co-container>
+			
+		</co-popup>
+        
+
+
+        
+
+		<co-text class="hidden-references" model="m.hiddenReferences"></co-text>
+	</article>
+
+	<script src="../spa/bundle.js"></script>
+    
+	<script src="scripts/index.js"></script>
+</body>
+</html>

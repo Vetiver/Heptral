@@ -1,0 +1,1005 @@
+/* body {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 400;
+	height: 768px;
+} */
+
+.pa {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.slide {
+	width: 1024px;
+	height: 768px;
+	z-index: 10;
+	background: #fff;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+sub,
+sup {
+	top: auto;
+	bottom: auto;
+	font-size: 60%;
+	line-height: 0;
+}
+
+sub {
+	vertical-align: sub;
+}
+
+.flip-container {
+	-webkit-perspective: 1000;
+	width: 100%;
+	height: 100%;
+}
+
+.flip-container .card {
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition-duration: 0.5s;
+}
+
+.flip-container .card > div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+}
+
+.flip-container .front {
+	z-index: 1;
+}
+
+.flip-container .back {
+	-webkit-transform: translate3d(0, 0, 0) rotateY(180deg);
+}
+
+.flip-container.flipped {
+	position: relative;
+	z-index: 1;
+}
+
+.flip-container.flipped > .card {
+	-webkit-transform: rotateY(180deg);
+}
+
+.flip-container.flipped > .card .front {
+	z-index: 0;
+}
+
+.instruction-document {
+	position: absolute;
+	left: 0;
+	bottom: 3px;
+	background: url("../../media/images/common/instruction-button1.png") no-repeat;
+	background-size: 100%;
+	width: 225.5px;
+	height: 141.5px;
+	-webkit-transform: translate3d(0, 0, 0);
+	pointer-events: auto;
+}
+
+.instruction-document button {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+.clear {
+	clear: both;
+}
+
+.popup.active {
+	z-index: 10;
+}
+
+.popup.active .scroll-container {
+	position: absolute;
+	z-index: 10;
+}
+
+strong,
+b {
+	font-weight: 700;
+}
+
+input,
+textarea {
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+}
+
+#presentation {
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.hidden {
+	display: none;
+}
+
+button {
+	border: none;
+	outline: none;
+}
+
+.open-menu {
+	position: absolute;
+	top: 0;
+	left: 34px;
+	background: url(../../media/images/common/abbott-white-logo) 100% 100% no-repeat;
+	background-size: 185px 68px;
+	width: 231px;
+	height: 98px;
+	border: none;
+	outline: none;
+	z-index: 1;
+}
+
+.dynamic-slide #references-and-design .references-list {
+	background: -webkit-linear-gradient(left, #73a700, #96c900);
+	border-top-right-radius: 0;
+	-webkit-box-shadow: 0 0 0 0px #d4d4d4, 0 0 4px rgba(0, 0, 0, 0.28);
+	box-shadow: 0 0 0 0px #d4d4d4, 0 0 4px rgba(0, 0, 0, 0.28);
+}
+
+.dynamic-slide #references-and-design button {
+	right: -149px;
+	background: -webkit-linear-gradient(top, #98cb00, #96c900);
+	border-bottom: 1px solid #96c900;
+	-webkit-box-shadow: 0 -1px 0 1px #d4d4d4, 0 -2px 2px rgba(0, 0, 0, 0.28);
+	box-shadow: 0 -1px 0 1px #d4d4d4, 0 -2px 2px rgba(0, 0, 0, 0.28);
+}
+
+.dynamic-slide #references-and-design button:after {
+	color: #5f7f00;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+	font: 15px/0 Arial;
+	-webkit-transform: scale(1, 0.65) translateY(3px);
+	display: inline-block;
+	padding-left: 5px;
+	content: "â–¼";
+}
+
+.dynamic-slide #references-and-design.opened button:after {
+	content: "â–²";
+}
+
+#instructions .instruction-first {
+	left: 4px;
+	bottom: -6px;
+	width: 218px;
+	height: 127px;
+	background: url("../../media/images/common/pack_instructions.png") no-repeat;
+	background-size: contain;
+	background: none;
+}
+
+.not-certified {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: matrix(0.895, -0.445, 0.445, 0.895, 167, 298);
+	transform: matrix(0.895, -0.445, 0.445, 0.895, 167, 298);
+	z-index: 6;
+	width: 676px;
+	height: 83px;
+	border: 5px solid rgba(255, 0, 0, 1);
+	font-size: 72px;
+	color: rgb(255, 5, 5);
+	text-align: center;
+	line-height: 1;
+}
+
+.slide-background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.footnote {
+	font-size: 0.57em;
+	color: white;
+	position: absolute;
+	bottom: 32px;
+	left: 197px;
+	z-index: 4;
+}
+
+.pos-ab {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*!* mobile adaptation *!
+
+.mobile-slide .mobileBg {
+	display: none;
+}
+
+article.slide .border-wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+article.slide #videoPopup .close-button {
+	opacity: 0;
+}
+
+#references-and-design.opened button.references-close-button {
+	display: none;
+}
+
+.scroll-content-wrapper {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+@media
+	!*iPhone 6,7,8*!
+
+screen and (max-height: 640px) and (max-width: 1136px) and (orientation: landscape), screen and (max-height: 750px) and (max-width: 1334px) and (orientation: landscape), screen and (aspect-ratio: 16/9), screen and (aspect-ratio: 18/9), screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+	article.slide.mobile-slide {
+		margin: auto;
+		width: 100%;
+		background: transparent;
+	}
+	#indicators {
+		display: none;
+	}
+	article.mobile-slide {
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: white;
+	}
+	.mobile-slide h1,
+	h2,
+	.mobile-slide .ipad-slide-content,
+	.mobile-slide .open-instructions-wrapper {
+		display: none;
+	}
+	.mobile-slide .mobileBg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: block;
+		margin: 0;
+	}
+	.mobile-slide .mobileContent,
+	.mobile-slide .mobileBg {
+		display: block;
+	}
+	.mobile-slide footer {
+		display: none;
+	}
+	.mobile-slide .content-wrapper {
+		top: 0;
+		position: absolute;
+		height: 100%;
+		left: 0;
+	}
+	.mobile-slide #references-and-design button.design-open-button,
+	.mobile-slide #references-and-design button.references-open-button {
+		border: 0;
+		border-radius: 15%;
+		left: auto;
+		right: 3.8%;
+		bottom: 6.8%;
+		width: 4.5%;
+		height: 7.5%;
+		top: auto;
+		-webkit-transform: none;
+		z-index: 3;
+		pointer-events: auto;
+		box-shadow: none;
+	}
+	.mobile-slide #references-and-design button.references-open-button span,
+	.mobile-slide #references-and-design button.design-open-button span,
+	.mobile-slide #references-and-design button.references-open-button co-text,
+	.mobile-slide #references-and-design button.design-open-button co-text {
+		color: transparent;
+		background: none;
+		display: none;
+	}
+	article.slide.mobile-slide #references-and-design .design button.design-open-button {
+		left: 85.8%;
+		background: #008926 url("../../media/images/common/design-open-button.png") no-repeat;
+		background-size: 78%, 80%;
+		background-position: center center;
+	}
+	article.slide.mobile-slide #references-and-design button.references-open-button {
+		background: #008926 url("../../media/images/common/references-open-button2.png") no-repeat;
+		background-size: 58%, 58%;
+		background-position: center center;
+	}
+
+	.mobile-slide div#references-and-design {
+		transform: none;
+		width: 100%;
+		top: 0;
+		height: 100%;
+		left: 0;
+		border: none;
+		pointer-events: none;
+		z-index: 10000;
+	}
+	.mobile-slide div#references-and-design.opened {
+		pointer-events: auto;
+	}
+	.mobile-slide #references-and-design button.references-close-button {
+		background: url("../../media/images/common/refs-close.png") no-repeat;
+		background-size: contain;
+		right: 5.9%;
+		top: 11.3%;
+		height: 6.4%;
+		transform: none;
+		width: 3.6%;
+		border: none;
+		pointer-events: auto;
+		z-index: 15;
+		opacity: 0;
+		display: block;
+		position: absolute;
+		box-shadow: none;
+	}
+	.mobile-slide #references-and-design .references ol {
+		padding: 0;
+	}
+	.mobile-slide #references-and-design.opened button.references-close-button {
+		opacity: 1
+	}
+	.mobile-slide #references-and-design .references .scroll-container ol li,
+	.mobile-slide #references-and-design .design .scroll-container ul li {
+		margin-bottom: 3.8%;
+		font: normal 0.92em/1.2 Calibri;
+	}
+	.mobile-slide #references-and-design .references .scroll-container ol li:last-child,
+	.mobile-slide #references-and-design .design .scroll-container ul li:last-child {
+		margin-bottom: 0;
+	}
+	.mobile-slide .approve.approve1.number-product1,
+	.mobile-slide .approve.approve2.number-product2,
+	#shortReferences {
+		display: block;
+		transform: none;
+		top: auto;
+		left: auto;
+		font-size: 6.9px;
+		z-index: 20;
+		width: auto;
+		height: 11px;
+		color: #333333;
+		font-weight: normal;
+		right: 3.9%;
+		bottom: 2.5%;
+	}
+	.mobile-slide .approve.approve1,
+	.mobile-slide .approve.approve2 {
+		display: none;
+	}
+	.mobile-slide .approve.approve2.number-product2 {
+		right: 18%;
+		bottom: 2.5%;
+	}
+	#shortReferences {
+		right: 16%;
+		bottom: 2.9%;
+	}
+	.mobile-slide #references-and-design .scroll-container ol,
+	.mobile-slide #references-and-design .scroll-container ul {
+		min-width: 100%;
+		width: 100%;
+		padding: 0;
+	}
+	article.slide.mobile-slide #references-and-design div.scroll-container {
+		background: transparent;
+		padding: 0;
+		z-index: 4;
+		border: none;
+	}
+	article.slide.mobile-slide #menu co-button,
+	article.slide.mobile-slide #menu co-button.active {
+		opacity: 0;
+		display: none;
+	}
+	article.slide.mobile-slide .border-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+		height: 86.7%;
+		width: 92.7%;
+		position: absolute;
+		top: 6.8%;
+		left: 3.7%;
+		border-radius: 0.3em;
+		background: linear-gradient(to right, #ccc, #eee);
+		box-shadow: 0 0 1.5em 0 rgba(0, 0, 0, 0.32);
+		opacity: 1;
+		pointer-events: auto;
+	}
+	article.slide.mobile-slide .scroll-content-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+		height: 98.7%;
+		width: 99.3%;
+		position: absolute;
+		top: 0.7%;
+		left: 0.35%;
+		border-radius: 0.23em;
+		background: #dd84ba;
+		opacity: 1;
+		pointer-events: auto;
+	}
+	article.slide.mobile-slide #references-and-design co-iscroll {
+		height: 93%;
+		width: 95.5%;
+		margin: 0;
+		padding-right: 30px;
+		box-sizing: border-box;
+	}
+	article.slide.mobile-slide .scroll-wrapper[co-iscroll] {
+		position: relative;
+		width: 94%;
+		height: 100%;
+		overflow: hidden;
+	}
+	article.slide.mobile-slide .scroll-wrapper[co-iscroll] .scroller {
+		min-width: 100%;
+		width: 100%;
+	}
+
+	.mobile-slide #references-and-design .iScrollScrollbar.show[co-iscroll] {
+		opacity: 1;
+		padding-top: 7%;
+	}
+	.mobile-slide #references-and-design .iScrollIndicator[co-iscroll] {
+		background: #fff;
+		background-color: #fff;
+		border: none;
+		width: 70%;
+	}
+	article.slide #references-and-design .references,
+	article.slide #references-and-design .design {
+		background: transparent;
+		width: 100%;
+		height: 100%;
+		padding: 0;
+	}
+	article.slide.mobile-slide #references-and-design button:before {
+		display: none;
+	}
+	article.slide.mobile-slide #openVideo {
+		position: absolute;
+		top: 56%;
+		left: 90%;
+		width: 5.3%;
+		height: 9.2%;
+		-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+		transform: matrix(1, 0, 0, 1, 0, 0);
+		z-index: 9999;
+	}
+	article.slide.mobile-slide #openVideo.open-video {
+		top: 44%;
+		left: 91%;
+	}
+	article.slide.mobile-slide #openVideo.open-video-2 {
+		top: 50%;
+		left: 91%;
+	}
+	article.slide.mobile-slide #videoPopup {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+		transform: matrix(1, 0, 0, 1, 0, 0);
+		border: none;
+		border-radius: 0;
+		background: transparent;
+		z-index: 10000;
+		overflow: visible;
+	}
+	article.slide.mobile-slide co-popup .close-button.image[co-popup],
+	co-popup.default .close-button[co-popup] {
+		width: 100%;
+		height: 100%;
+		right: 0;
+		opacity: 0;
+	}
+	article.slide.mobile-slide #femostonVideo {
+		position: absolute;
+		top: 4.5%;
+		left: 16%;
+		width: 67%;
+		height: 90.8%;
+		-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+		transform: matrix(1, 0, 0, 1, 0, 0);
+	}
+	article.slide.mobile-slide co-video.default .time-current[co-video],
+	co-video.default .time-duration[co-video],
+	co-video.default .separator[co-video] {
+		font-size: 1em;
+	}
+	co-video.default.full-screen .time-duration[co-video] {
+		font-size: 1em;
+	}
+	.mobileBg .co-popup {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+		transform: matrix(1, 0, 0, 1, 0, 0);
+		background: transparent;
+		z-index: 10000;
+	}
+	.mobileBg .co-popup .close-button {
+		z-index: 1;
+	}
+	.mobileBg .co-popup .close-button[co-popup] {
+		width: 8%;
+		height: 14.3%;
+		right: 4%;
+		top: 5%;
+	}
+	.mobileBg co-popup .close-button[co-popup] co-container[co-popup] {
+		width: 100%;
+		height: 100%;
+	}
+	.mobileBg .co-popup .close-button[co-popup] co-image[co-popup] {
+		width: 48.8%;
+		height: 48.5%;
+		top: 28%;
+		left: 28%;
+	}
+	.mobileBg .popup-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		-webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+		transform: matrix(1, 0, 0, 1, 0, 0);
+	}
+	.mobile-slide footer {
+		bottom: auto;
+		top: 0;
+		background: none;
+		width: 100%;
+		height: 100%;
+	}
+	.mobile-slide #bottomThumbnails {
+		display: none;
+	}
+}
+
+@media only screen
+	!*iPhone 6+,7+,8+*!
+
+and (min-device-height: 414px) and (device-width: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+	article.slide.mobile-slide,
+	body article.slide.mc2-2017.mobile-slide {
+		width: 100%;
+	}
+	article.slide.mobile-slide .scroll-content-wrapper {
+		top: 0.6%;
+	}
+}
+
+@media only screen
+	!*iPhone 6s Plus*!
+
+and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+	.mobile-slide .approve.approve1.number-product1,
+	.mobile-slide .approve.approve2.number-product2 {
+		font-size: 6.4px;
+	}
+}
+
+@media only screen
+	!*iPhone X*!
+
+and (max-device-height: 375px) and (device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+	body {
+		background: #00a94c;
+	}
+	article.slide.mobile-slide,
+	body article.slide.mc2-2017.mobile-slide {
+		background: transparent;
+		width: 82.2%;
+	}
+	body article.slide.mobile-slide .scroll-content-wrapper {
+		width: 99.3%;
+		height: 98.7%;
+	}
+	body article.slide.mobile-slide .border-wrapper {
+		width: 92.9%;
+	}
+	.mobile-slide .approve.approve1.number-product1,
+	.mobile-slide .approve.approve2.number-product2 {
+		font-size: 0.35em;
+	}
+}
+
+@media only screen
+and (device-height: 812px) and (device-width: 375px) and (-webkit-device-pixel-ratio: 3){
+	body {
+		background: #00a94c;
+	}
+	article.slide.mobile-slide,
+	body article.slide.mc2-2017.mobile-slide {
+		background: transparent;
+		width: 82.2%;
+	}
+	body article.slide.mobile-slide .scroll-content-wrapper {
+		width: 99.3%;
+		height: 98.7%;
+	}
+	body article.slide.mobile-slide .border-wrapper {
+		width: 92.9%;
+	}
+}
+
+@media
+	!*for devices with aspect-ratio: 18/9*!
+
+screen and (aspect-ratio: 18/9) {
+	body {
+		background: #00a94c;
+	}
+	body article.slide.mobile-slide,
+	body article.slide.mc2-2017.mobile-slide {
+		background: transparent !important;
+		width: 89.2%;
+	}
+	body article.slide.mobile-slide .scroll-content-wrapper {
+		left: 0.3%;
+		top: .6%;
+	}
+	body article.slide.mobile-slide .scroll-content-wrapper {
+		width: 99.4%;
+	}
+}*/
+
+/*RC - heptral adaptation*/
+
+.mobile-slide footer {
+	border-top: none;
+}
+
+.mobile-slide .desktop-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1024px;
+	height: 768px;
+}
+
+.mobile-slide .header {
+	position: absolute;
+	top: 66px;
+	left: 259px;
+	color: #159641;
+	font-size: 33px;
+	font-weight: 600;
+	font-family: Calibri;
+	line-height: 1;
+}
+
+.mobile-slide .pa {
+	position: absolute;
+}
+
+.mobile-slide .references .scroll-container ul {
+	counter-reset: olcount;
+}
+
+.mobile-slide .scroll-container ul {
+	padding: 25px 11px 25px 13px;
+}
+
+.mobile-slide #references-and-design .references-list {
+	background-color: #008a0e;
+}
+
+.mobile-slide #references-and-design button {
+	position: absolute;
+	top: 15px;
+	right: -144px;
+	width: 106px;
+	height: 36px;
+	border: 2px solid #fff;
+	border-bottom: none;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	background: #008a0e;
+	color: #fff;
+	font-size: 15px;
+}
+
+.mobile-slide #references-and-design button::before {
+	content: "";
+	width: 100%;
+	height: 5px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #008a0e;
+}
+
+.mobile-slide.mc2-2019 #references-and-design button::before {
+	display: none;
+}
+
+.mobile-slide.mob #references-and-design button::before {
+	display: none;
+}
+
+.mobile-slide #instructions .instruction-first {
+	left: 60px;
+	bottom: -6px;
+	width: 210px;
+	height: 127px;
+	background: url("../../media/images/common/heptral-pack-january-2019-march.png") no-repeat;
+	background-size: contain;
+}
+
+.mobile-slide .number-of-heptral {
+	position: absolute;
+	text-align: center;
+	top: 291px;
+	right: 24px;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	transform-origin: 100% 0;
+	-webkit-transform-origin: 100% 0;
+	z-index: 4;
+	font-size: 16px;
+	color: #000;
+	font-family: Calibri;
+}
+
+.mc2-2020-doctors .heptral-logo {
+    transform: matrix(1, 0, 0, 1, 42, 62);
+    width: 182px;
+    height: 39px;
+}
+
+.news-button,
+.news-button.active {
+	top: 645px;
+	left: 30px;
+	width: 145px;
+	height: 50px;
+	z-index: 10;
+	border: none;
+	border-radius: unset;
+	background: center/contain no-repeat url(../../media/images/common/news-button.png);
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: matrix(1, 0, 0, 1, 51, 42);
+	font-size: 35px;
+	line-height: 37px;
+	font-family: Montserrat;
+	font-weight: bold;
+	color: #00ad30;
+}
+
+mark {
+	font-weight: 400;
+	background: none;
+	color: #008926;
+}
+
+.mc2-2020 footer {
+	background: url("../../media/images/common/mc2-2020_footer.jpg") 0 100% /
+    contain no-repeat;
+}
+
+.mc2-2020-doctors footer {
+	background: url("../../media/images/common/mc2-2020_footer2.jpg") 0 100% /
+    contain no-repeat;
+}
+
+article.mc2-2020 {
+	background: #fff url("../../media/images/common/mc2-2020_bg.jpg") center/cover no-repeat;
+}
+
+.mc2-2020-doctors .title {
+	transform: matrix(1, 0, 0, 1, 43, 59);
+	font-size: 25px;
+	font-family: Avenir;
+	color: #509e2f;
+	text-transform: uppercase;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<PATIENT PORTRAIT MC2-2020>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.mc2-2020-doctors.mc2-2020-patient-portrait footer {
+	height: 242px;
+	background: url("../../media/images/common/mc2-2020-patient-portrait-footer.png") no-repeat center/contain transparent;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .background {
+	transform: matrix(1, 0, 0, 1, 446, 0);
+	width: 578px;
+	height: 768px;
+	z-index: 1;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .footer-logo {
+	top: 187px;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .patient-portrait-footer {
+	transform: matrix(1, 0, 0, 1, 44, 613);
+	width: 750px;
+	height: 111px;
+	z-index: 4;
+	color: #509E2F;
+	font: 300 20px/20px Avenir;
+	letter-spacing: 0.8px;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .footer-text-1 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .footer-text-2 {
+	transform: matrix(1, 0, 0, 1, 0, 23);
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 51px;
+	text-align: center;
+	background-color: #666666;
+	color: white;
+	font: 300 12px/16px Avenir;
+	border-radius: 5px;
+	letter-spacing: 0;
+	box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.16);
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-button co-button[co-text-button].default,
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-button co-button[co-text-button].default.active {
+	color: white;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-button-1 {
+	transform: matrix(1, 0, 0, 1, 95, 59);
+	width: 145px;
+	background: url("../../media/images/common/mc2-2020-patient-portrait-instruction-button.png") no-repeat center/contain transparent;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-button-2 {
+	transform: matrix(1, 0, 0, 1, 249, 59);
+	width: 85px;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-button-3 {
+	transform: matrix(1, 0, 0, 1, 344, 59);
+	width: 147px;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-button-4 {
+	transform: matrix(1, 0, 0, 1, 501, 59);
+	width: 246px;
+	letter-spacing: 0.4px;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-name {
+	transform: matrix(1, 0, 0, 1, 45, 36);
+	font-size: 25px;
+	color: #509E2F;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-age {
+	transform: matrix(1, 0, 0, 1, 45, 66);
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-prof {
+	transform: matrix(1, 0, 0, 1, 45, 101);
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 12px;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .diagnosis-wrapper {
+	transform: matrix(1, 0, 0, 1, 518, 38);
+	width: 470px;
+	height: 600px;
+	z-index: 4;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-diagnosis-header {
+	transform: matrix(1, 0, 0, 1, 7, 0);
+	font-weight: 300;
+	font-size: 15px;
+	color: #006747;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-diagnosis-name {
+	transform: matrix(1, 0, 0, 1, 7, 27);
+	font-size: 20px;
+	color: #006747;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-complaint {
+	transform: matrix(1, 0, 0, 1, 0, 92);
+	width: 470px;
+	height: 50px;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-icon {
+	transform: matrix(1, 0, 0, 1, 4, 0);
+	width: 48px;
+	height: 45px;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-complaint-text {
+	transform: matrix(1, 0, 0, 1, 85, 11);
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: white;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-complaint:last-of-type .pp-complaint-text {
+	color: #006747;
+	transform: matrix(1, 0, 0, 1, 85, 12);
+	font-size: 17px;
+	letter-spacing: 0px;
+	font-weight: 300;
+	line-height: 21px;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .pp-complaint-text sup {
+	position: relative;
+	top: 1px;
+	font-size: 56%;
+}
+
+.mc2-2020-doctors.mc2-2020-patient-portrait .open-instructions-wrapper {
+    display: none;
+}

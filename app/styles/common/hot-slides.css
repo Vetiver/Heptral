@@ -1,0 +1,21 @@
+.hot-slides-open-button-in[co-hot-slides] {
+    background-color: #008926;
+	border: 2px solid #09a82e;
+ }
+co-hot-slides {
+    border-top-color: #09a82e;
+    border-right-color: #09a82e;
+    border-bottom-color: #09a82e;
+    border-left-color: #09a82e;
+}
+co-hot-slides {
+    background-color: transparent;
+}
+
+co-hot-slides {
+    z-index: 9998;
+}
+
+.thumbs[co-hot-slides] {
+    width: 109px;
+}

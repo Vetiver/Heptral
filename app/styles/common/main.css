@@ -1,0 +1,167 @@
+.pa {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hidden-refs {
+    opacity: 0;
+}
+
+article .popup-close-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+article.slide:after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: -webkit-box;
+    background: #00B140;
+    width: 100%;
+    height: 12px;
+    border-top: 0;
+    content: "";
+}
+
+article.slide co-ab-ru-footer {
+    z-index: 1000;
+}
+
+co-ab-ru-nav-menu {
+    z-index: 1003 !important;
+}
+
+co-thumbnails-button {
+    z-index: 1001 !important;
+}
+
+article.slide co-ab-ru-footer .logo[co-ab-ru-footer] {
+    bottom: 18px;
+    right: 19px;
+    width: 122px;
+}
+
+/*popup close button*/
+.slide .popup-close-button {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    z-index: 11;
+    width: 30px;
+    height: 30px;
+    transform: none;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.slide .popup-close-button::before,
+.slide .popup-close-button::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    background:#888B8D;
+    -webkit-transform: translate3d(-50%, -50%, 0) rotate(45deg);
+}
+
+.slide .popup-close-button::after {
+    -webkit-transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+}
+
+article.slide .approve-number {
+    position: absolute;
+    display: block;
+    right: 55px;
+    top: 50px;
+    width: 173px;
+    height: 46px;
+}
+
+co-popup {
+    z-index: 999;
+}
+
+co-popup.ref-des-popup {
+    z-index: 9999;
+}
+
+.slide .product-logo-neuro {
+    position: absolute;
+    display: block;
+    right: 55px;
+    left: auto;
+    transform: none;
+    top: 50px;
+    width: 173px;
+    height: 46px;
+}
+
+
+
+.slide .approve-text.approve-number {
+    font: 300 9px/8px BrandonGrotesque;
+    z-index: 2;
+    transform: matrix(1, 0, 0, 1, 54, 708);
+    font-weight: 700;
+}
+
+article.slide.colorbg {
+    background: url("../../media/images/common/colorbg.png") center/contain no-repeat;
+}
+
+
+
+co-ab-ru-references-design-sidebar .scroller .list li div.index span {
+    font-weight: 800 !important;
+}
+
+co-ab-ru-references-design-sidebar .scroller .list li div .name-value {
+    font-weight: 400 !important;
+}
+
+co-ab-ru-references-design-sidebar .scroller .list li .index {
+    width: 31px !important;
+}
+
+.ref-des-popup #referencesDesignSidebar .scroll-wrapper {
+    top: 226px !important;
+}
+
+.ref-des-popup #referencesDesignSidebar .scroll-wrapper {
+    width: 900px !important;
+}
+
+co-ab-ru-references-design-sidebar .scroller .list li div .name-value b.font-800 {
+    font-weight: 800 !important;
+}
+
+co-ab-ru-references-list[co-ab-ru-references-design-sidebar].references .list[co-ab-ru-references-list] li[co-ab-ru-references-list] {
+    padding: 0 0 8px 0 !important;
+}
+
+.slide co-ab-ru-footer .logo {
+    display: none !important;
+}
+
+.product-logo-neuro.references-logo {
+    pointer-events: none !important;
+}
+
+.product-logo-neuro.references-logo {
+    z-index: 999 !important;
+}
+
+article {
+    background: #ffffff;
+}

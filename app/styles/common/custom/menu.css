@@ -1,0 +1,49 @@
+#menu>co-button {
+    top: 50px;
+    width: 176px;
+    background: transparent;
+}
+
+#menu {
+    z-index: 12;
+    top: 0;
+    left: 0;
+    width: 128px;
+    height: 100%;
+}
+
+#menu co-shower {
+    width: 100px;
+    height: 100%;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-box-shadow: 3px 0 10px rgba(0, 0, 0, .4);
+}
+
+#menu .chapter-item-background.passive[co-chapter-menu-item] {
+    background: linear-gradient(to bottom, #94c700 0%, #73a700 100%);
+}
+
+#menu .chapter-item-background.active[co-chapter-menu-item] {
+    background: #5b8b0f no-repeat top center;
+    background-size: 54px 715px, 100%;
+}
+
+#menu .chapter-item-icon>co-image>div {
+    width: 100px;
+    height: 52px;
+}
+
+#menu .chapter-item-icon[co-chapter-menu-item] {
+    right: 20px;
+    width: 80px;
+}
+
+#menu .co-collection-item {
+    border-bottom: 1px solid #fff;
+}
+
+#menu co-option.empty {
+    opacity: .5;
+    background: linear-gradient(to bottom, #bed2fb 0%, #8ca1cc 100%);
+}

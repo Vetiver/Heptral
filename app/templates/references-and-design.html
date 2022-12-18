@@ -1,0 +1,12 @@
+<co-popup class="ref-des-popup pa" model="m.common.refDesPopupModel" rv-on-deactivate="deactivateRefs" rv-on-popupenter="activateRefs" rv-controller="reference">
+    <co-ab-ru-logo-menu model="m.common.logo" user-label="Abbott logotype" rv-on-tap="openMenu" rv-controller="menu">
+    </co-ab-ru-logo-menu>
+    <co-image id="productLogoNeuro" class="pa product-logo-neuro references-logo" model="m.common.productLogoNeuro"></co-image>
+    <co-references-model model="m.common.refDesModel.referencesModel"></co-references-model>
+    <co-design-model model="m.common.refDesModel.designModel"></co-design-model>
+    <co-ab-ru-references-design-sidebar id="referencesDesignSidebar" class="default" model="m.common.refDesModel">
+        <co-text class="footnoteAndAbbr" model="m.footnoteAndAbbr" user-label="Footnotes and abbreviations"></co-text>
+    </co-ab-ru-references-design-sidebar>
+    <!-- <co-text class="approve-text approve-number color-1" model="m.approveNumber"></co-text> -->
+
+</co-popup>

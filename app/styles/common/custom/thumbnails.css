@@ -1,0 +1,62 @@
+#bottomThumbnails {
+  left: 274px;
+  width: 750px;
+  height: 67px;
+}
+
+#bottomThumbnails co-button[co-thumbnails-button] {
+  top: 23px;
+  left: 660px;
+  width: 120px;
+  height: 30px;
+  background: none;
+  background-color: transparent;
+  background-size: 100% 100%;
+}
+
+.mc2-2020-doctors #bottomThumbnails co-button[co-thumbnails-button] {
+  top: 13px;
+  left: 669px;
+  width: 130px;
+  height: 31px;
+  background: none;
+  background-color: transparent;
+  background-size: 100% 100%;
+}
+
+#bottomThumbnails co-button.active[co-thumbnails-button] {
+  visibility: visible;
+}
+
+#bottomThumbnails co-shower,
+#bottomThumbnails co-menu[co-thumbnails],
+#bottomThumbnails co-iscroll[co-menu] co-select[co-menu] {
+  height: 100%;
+}
+
+#bottomThumbnails co-shower {
+  width: 530px;
+}
+
+#bottomThumbnails co-thumbnails[co-thumbnails-button] {
+  background-color: transparent;
+}
+
+#bottomThumbnails co-menu[co-thumbnails] co-select co-option {
+  width: 90px;
+  height: 68px;
+}
+
+#bottomThumbnails co-iscroll[co-menu] co-select[co-menu] {
+  align-items: flex-start;
+}
+
+#bottomThumbnails co-menu[co-thumbnails] co-select co-option {
+  width: 81px;
+  height: 61px;
+  margin: 0 8px 0 0;
+}
+
+#bottomThumbnails co-select {
+  align-items: flex-start;
+}

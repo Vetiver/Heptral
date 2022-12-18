@@ -1,0 +1,27 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1024px;
+  height: 57px;
+  background-color: #008926;
+  z-index: 4;
+}
+
+.heptral-tl footer {
+  height: 84px;
+  border-top: none;
+}
+
+.mc2-2020-doctors .footer-logo {
+  position: absolute;
+  top: 3px;
+  left: 882px;
+  width: 124px;
+  height: 30px;
+  background: url("../../../media/images/common/mc2-2020_logo_abbott.png")
+    no-repeat;
+  background-color: transparent;
+  background-size: 100% 100%;
+  pointer-events: none;
+}

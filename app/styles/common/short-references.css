@@ -1,0 +1,21 @@
+#shortReferences{
+	z-index: 3;
+	position: absolute;
+	bottom: 115px;
+	top: auto;
+	left: 790px;
+	width: auto;
+}
+
+#shortReferences ol{
+	width: auto;
+	min-width: 120px;
+	padding: 0;
+}
+
+#shortReferences li{
+	text-align: left;
+	margin-bottom: 2px;
+	font: normal 400 10px PTSans;
+	color: #000000;
+}

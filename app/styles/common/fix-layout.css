@@ -1,0 +1,185 @@
+.slide .approve-number {
+    transform: matrix(1, 0, 0, 1, 96, 41);
+}
+
+co-ab-ru-footer .logo[co-ab-ru-footer] {
+    bottom: 21px;
+    right: 20px;
+    width: 94px;
+    height: 20px;
+}
+
+.ref-des-popup co-ab-ru-footer {
+    z-index: 100;
+}
+
+.portrait #name {
+    transform: matrix(1, 0, 0, 1, 102, 57);
+    font-size: 52px;
+}
+
+.portrait #age {
+    transform: matrix(1, 0, 0, 1, 104, 127);
+    color: #fff;
+}
+
+.blured-block-text-wrapper {
+    transform: matrix(1, 0, 0, 1, 0, 563);
+    width: 552px;
+    height: 100px;
+    border-radius: 0 82px 82px 0;
+    display: flex;
+    align-items: center;
+    padding-left: 103px;
+    box-sizing: border-box;
+}
+
+.portrait #blockText {
+    width: 430px;
+}
+
+.portrait .list-icons {
+    width: 460px;
+    height: auto;
+}
+
+.portrait .list-icons .list-item {
+    position: relative;
+    padding-left: 61px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.portrait .list-icons .list-text {
+    color: white;
+}
+
+co-thumbnails-button.location-bottom {
+    z-index: 101;
+}
+
+/*
+co-references-list[co-ab-ru-references-design-sidebar].references .list[co-references-list] li[co-references-list] .name-value[co-references-list]:after{
+    display: inline;
+    font: inherit;
+    color: inherit;
+}
+
+co-references-list[co-ab-ru-references-design-sidebar].references .list[co-references-list] li[co-references-list]:not(:last-child) .name-value[co-references-list]:after{
+    content: ';';
+}
+
+co-references-list[co-ab-ru-references-design-sidebar].references .list[co-references-list] li[co-references-list]:last-child .name-value[co-references-list]:after{
+    content: '.';
+}*/
+
+.portrait .patient-portrait-footer {
+    transform: matrix(1, 0, 0, 1, 103, 676);
+    width: 901px;
+    height: 80px;
+    z-index: 1;
+}
+
+.patient-portrait-footer .footnote {
+    transform: matrix(1, 0, 0, 1, 0, 7);
+    width: 300px;
+    color: #fff;
+}
+
+.pp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.pp-button co-button[co-text-button].default,
+.pp-button co-button[co-text-button].default.active {
+    color: #509E2F;
+    font: 12px/1.25 BrandonGrotesque;
+    padding-top: 3px;
+}
+
+co-button.pp-button-1 {
+    transform: matrix(1, 0, 0, 1, 306, 0);
+    width: 130px;
+    background: url("../../media/images/common/heptral-btn.png") no-repeat center/contain transparent;
+}
+
+.pp-button-2 {
+    transform: matrix(1, 0, 0, 1, 440, 0);
+    width: 80px;
+}
+
+.pp-button-3 {
+    transform: matrix(1, 0, 0, 1, 526, 0);
+    width: 140px;
+}
+
+.pp-button-4 {
+    transform: matrix(1, 0, 0, 1, 671, 0);
+    width: 230px;
+}
+
+.mc2-2021 .pp-button-2 {
+    transform: matrix(1, 0, 0, 1, 384, 0);
+    width: 55px;
+}
+
+.mc2-2021 .pp-button-3 {
+    transform: matrix(1, 0, 0, 1, 447, 0);
+    width: 140px;
+}
+
+.mc2-2021 .pp-button-4 {
+    transform: matrix(1, 0, 0, 1, 595, 0);
+    width: 170px;
+}
+
+.fc03 {
+    background: radial-gradient(ellipse at bottom right, #4f9e34 0%, #509e2f 10%, #4d9c30 20%, #3c9136 40%, #25813e 60%, #066c46 90%, #006848 100%);
+}
+
+.ref-des-popup co-ab-ru-logo-menu {
+    pointer-events: none;
+}
+
+.ref-des-popup #referencesDesignSidebar .scroll-wrapper {
+    top: 130px;
+    left: 81px;
+}
+
+co-ab-ru-references-list[co-ab-ru-references-design-sidebar].references .list[co-ab-ru-references-list] li[co-ab-ru-references-list] {
+    padding: 5px 0 6px;
+}
+
+#referencesDesignSidebar li[data-reference-id="nullRef"] {
+    display: none;
+}
+
+.abrr {
+    font: 300 16px/2.22 BrandonGrotesque;
+    color: white;
+}
+
+.abrr .index {
+    width: 27px;
+    display: inline-block;
+}
+
+co-ab-ru-references-design-sidebar.default co-ab-ru-references-list[co-ab-ru-references-design-sidebar] co-iscroll[co-ab-ru-references-list] {
+    border: 0;
+}
+
+.ref-des-popup co-ab-ru-footer {
+    pointer-events: none;
+}
+
+article.fc03 .popup-close-button:after {
+    background: url("../../media/images/common/closeIcon.png") no-repeat center center/contain !important;
+}
+co-ab-ru-nav-menu {
+    z-index: 104 !important;
+}

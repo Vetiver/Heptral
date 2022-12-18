@@ -1,0 +1,27 @@
+#indicators{
+	position: absolute;
+	top: 50px;
+	right: 46px;
+	z-index:1;
+}
+#indicators div{
+	width: 11px;
+	height: 11px;
+	margin-left: 2px;
+	border-radius: 2px;
+	background: #e2e3e3;
+	-webkit-transition: .2s ease-in-out;
+	-webkit-transform-origin: 50%;
+	-webkit-appearance: none;
+	border: none;
+	position: relative;
+	-webkit-transform: translate3d(0, 0, 0) scale(.7);
+	display: inline-block;
+}
+#indicators div.active{
+	-webkit-transform: translate3d(0, 0, 0) scale(1);
+	background: #73a700;
+}
+#indicators.indicators-off {
+	display: none;
+}

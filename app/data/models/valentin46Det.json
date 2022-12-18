@@ -1,0 +1,288 @@
+{
+    "logo": {
+      "logo": "abbott_original_one_line"
+    },
+    "title": {
+        "html": "t.title"
+      },
+      "columnText1": {
+        "html": "t.columnText1"
+      },
+      "columnText2": {
+        "html": "t.columnText2"
+      },
+      "columnText3": {
+        "html": "t.columnText3"
+      },
+      "columnText4": {
+        "html": "t.columnText4"
+      },
+      "titleColumn1": {
+        "html": "t.titleColumn2"
+      },
+      "titleColumn2": {
+        "html": "t.titleColumn1"
+      },
+      "titleColumn3": {
+        "html": "t.titleColumn3"
+      },
+      "SubtitleColumn1": {
+        "html": "t.SubtitleColumn1"
+      },
+      "SubtitleColumn2": {
+        "html": "t.SubtitleColumn2"
+      },
+      "SubtitleColumn3": {
+        "html": "t.SubtitleColumn3"
+      },
+      "solid": {
+        "src": "media/images/valentin46Det/solid.png"
+      },
+      "bigSolid": {
+        "src": "media/images/valentin46Det/bigSolid.png"
+      },
+      "photo": {
+        "src": "media/images/valentin46Det/photo.png"
+      },
+      "line1": {
+        "src": "media/images/valentin46Det/line1.png"
+      },
+      "line2": {
+        "src": "media/images/valentin46Det/line2.png"
+      },
+      "line3": {
+        "src": "media/images/valentin46Det/line3.png"
+      },
+      "slideBg": {
+        "src": "media/images/common/thumbs/valentin46Det.jpg"
+      },
+      "icon1": {
+        "src": "media/images/valentin46Det/icon1.png"
+      },
+      "icon2": {
+        "src": "media/images/valentin46Det/icon2.png"
+      },
+      "icon3": {
+        "src": "media/images/valentin46Det/icon3.png"
+      },
+      "columnIcon1": {
+        "src": "media/images/valentin46Det/columnIcon1.png"
+      },
+      "columnIcon2": {
+        "src": "media/images/valentin46Det/columnIcon2.png"
+      },
+      "columnIcon3": {
+        "src": "media/images/valentin46Det/columnIcon3.png"
+      },
+      "columnIcon4": {
+        "src": "media/images/valentin46Det/columnIcon4.png"
+      },
+      "procent": {
+        "src": "media/images/valentin46Det/procent.png"
+      },
+    "refDesModel": {
+      "referencesModel": {
+        "items": [],
+        "footnoteItems": [],
+        "abbrItems": [],
+        "allReferences": [],
+        "absolute": false,
+        "indexSplitter": ",",
+        "groupIndex": true,
+        "indexPostText": ". ",
+        "screenshotStates": "on",
+        "iscrollModel": {
+          "bounce": false,
+          "fadeScrollbars": false,
+          "fixedSizeScrollbars": false,
+          "scrollbars": true,
+          "scrollX": true,
+          "scrollY": true,
+          "startX": 0,
+          "startY": 0,
+          "mouseWheel": true,
+          "mouseWheelSpeed": 20,
+          "interactiveScrollbars": true,
+          "momentum": true,
+          "useTransition": true,
+          "bounceEasing": "",
+          "bounceTime": 600,
+          "scrollToSelector": "",
+          "snap": "",
+          "snapThreshold": 0.334,
+          "stopPropagationSwipe": "all",
+          "preventDefault": true,
+          "bindToWrapper": true,
+          "currentPosition": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "designModel": {
+        "items": [],
+        "screenshotStates": "on",
+        "sidebarFontSize": 14,
+        "color": "#333",
+        "iscrollModel": {
+          "bounce": false,
+          "fadeScrollbars": true,
+          "fixedSizeScrollbars": false,
+          "scrollbars": true,
+          "scrollX": true,
+          "scrollY": true,
+          "startX": 0,
+          "startY": 0,
+          "mouseWheel": true,
+          "mouseWheelSpeed": 20,
+          "interactiveScrollbars": true,
+          "momentum": true,
+          "useTransition": true,
+          "bounceEasing": "",
+          "bounceTime": 600,
+          "scrollToSelector": "",
+          "snap": "",
+          "snapThreshold": 0.334,
+          "stopPropagationSwipe": "all",
+          "preventDefault": true,
+          "bindToWrapper": true,
+          "currentPosition": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      "referenceItems": [],
+      "designItems": [],
+      "referencesButtonText": {
+        "html": "ИСТОЧНИКИ"
+      },
+      "designButtonText": {
+        "html": "ДИЗАЙН ИССЛЕДОВАНИЯ"
+      },
+      "activeReferencesButtonText": {
+        "html": "ИСТОЧНИКИ"
+      },
+      "activeDesignButtonText": {
+        "html": "ДИЗАЙН ИССЛЕДОВАНИЯ"
+      },
+      "referencesButton": {
+        "shadow": false,
+        "active": false,
+        "disabled": true
+      },
+      "designButton": {
+        "shadow": false,
+        "active": false,
+        "disabled": true
+      },
+      "activeReferencesButton": {
+        "shadow": false
+      },
+      "activeDesignButton": {
+        "shadow": false
+      },
+      "showButtonsOnDisabled": false,
+      "animations": {
+        "name": "none",
+        "delay": 0,
+        "duration": 0.5
+      },
+      "referencesBtnImage": {
+        "src": "media/images/common/reference-bg.png",
+        "position": "center center",
+        "size": "contain"
+      },
+      "designBtnImage": {
+        "src": "media/images/common/design-bg.png",
+        "position": "center center",
+        "size": "contain"
+      },
+      "activeReferencesBtnImage": {
+        "src": "media/images/common/active-btn-bg.png",
+        "position": "center center",
+        "size": "contain"
+      },
+      "activeDesignBtnImage": {
+        "src": "media/images/common/active-btn-bg.png",
+        "position": "center center",
+        "size": "contain"
+      },
+      "screenshotStates": "on"
+    },
+    "refDesPopupModel": {
+      "id": "refDesPopupModel",
+      "closeButtonImage": {
+        "src": "media/images/common/closeIconGray.png",
+        "size": "contain",
+        "position": "center center"
+      }
+    },
+    "refDesButtonModel": {
+      "id": "refDesButton",
+      "openPopup": {
+        "id": "refDesPopupModel"
+      }
+    },
+    "footer1": {
+      "src": "media/images/common/footer.png",
+      "position": "center center",
+      "size": "contain"
+    },
+    "footer2": {
+      "src": "media/images/common/footer2.png",
+      "position": "center center",
+      "size": "contain"
+    },
+    "buttons": [
+      {
+        "name": {
+          "html": "Источники"
+        },
+        "displayReferencesIcon": true,
+        "displayInstructionsIcon": false,
+        "disabled": false,
+        "openPopup": {
+          "id": "refDesPopupModel"
+        },
+        "instuctions": {
+          "src": ""
+        }
+      },
+      {
+        "name": {
+          "html": "Инструкция"
+        },
+        "displayReferencesIcon": false,
+        "displayInstructionsIcon": true,
+        "disabled": false,
+        "openPopup": {
+          "id": ""
+        },
+        "instuctions": {
+          "src": "media/pdfs/common/instruction.pdf"
+        }
+      }
+    ],
+    "bottomThumbs": {
+      "location": "bottom",
+      "show-duration": 0.2,
+      "show-delay": 0,
+      "show-animation-name": "slideInUp",
+      "hide-animation-name": "slideOutDown",
+      "hide-duration": 0.2,
+      "hide-delay": 0,
+      "hide-on-outside-tap": true,
+      "thumbnailsModel": {
+        "border-width": 1
+      }
+    },
+    "menu": {},
+    "isScenario": false,
+    "productLogoNeuro": {
+      "src": "media/images/common/traicor-original-logo.png", 
+      "position": "center center",
+      "size": "contain"
+    }
+  }
+  
